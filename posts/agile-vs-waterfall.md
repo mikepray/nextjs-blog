@@ -25,14 +25,14 @@ When people diss Waterfall in favor of Agile, they're responding to how Agile co
 - it's difficult to get them agree to anything,
 - or be honest with themselves about their motivations and visions for a given product.
 
-If you've ever advocated for a technology, process, or product, you might interrogate your own motivations in bringing it up - did you read a blog post about it? Is that architecture what you used at your last job? Is that framework [solving problems that plagued you on your last project?](https://staffeng.com/guides/work-on-what-matters).
+If you've ever advocated for a technology, process, or product, you might interrogate your own motivations in bringing it up - did you read a blog post about it? Is that architecture what you used at your last job? Is that framework [solving problems that plagued you on your last project?][1].
 
 By the way, it's ok to have conflicted motivations - no one is perfect. But this exercise should help the reader understand that everyone around the decision-making table will have their own invisible biases and motivations. They might not even be the right people to bring together to define a product.
 
 ## Reality is chaos
 
-The strength of Agile is that it accepts these human faults and accepts the chaotic reality of most businesses. [Agile prioritizes the things that drive iteration and collaboration](https://agilemanifesto.org). It doesn't mean that it will work, or even that it will be better than using Waterfall, but it probably stands a better chance in the living world of business.
+The strength of Agile is that it accepts these human faults and accepts the chaotic reality of most businesses. [Agile prioritizes the things that drive iteration and collaboration][2]. It doesn't mean that it will work, or even that it will be better than using Waterfall, but it probably stands a better chance in the living world of business.
 
-### References
-- Staff Eng: https://staffeng.com/guides/work-on-what-matters
-- Agile Manifesto: https://agilemanifesto.org
+
+[1]: https://staffeng.com/guides/work-on-what-matter (staffeng.com - Work on What Matters)
+[2]: https://agilemanifesto.org (Agile Manifesto)
