@@ -1,6 +1,6 @@
 ---
 title: 'Setting up a Jira Webhook with nginx, Digital Ocean, and Express'
-date: '2021-12-9'
+date: '2021-12-09'
 ---
 
 ## What is a webhook?
@@ -69,7 +69,7 @@ https://api.mikepray.dev/rest/webhooks/createIssue/issueId/${issue.id}
 
 Jira helpfully allows you to to choose what parameters can be sent into the webhook URL. 
 
-![Jira Webhook URL](/public/images/webhook.png "Jira webhook setup")
+![Jira Webhook URL](/images/webhook.png "Jira webhook setup")
 
 Jira allows a single webhook to be registered for multiple actions, like create issue, delete issue, create project, etc. While it's interesting to set up a webhook to vacuum up every issue, project, or comment update, it doesn't seem like a good idea. In practice, I'd set up multiple webhooks; one per resource. Possibly one per resource and action.
 
@@ -135,7 +135,7 @@ This starts the server in the background and sends the verbose output to a text 
 
 After starting the server and creating an issue in my Jira Cloud instance, the `less` output looks like the screenshot below. It's quite verbose:
 
-![output](/public/images/out.png "out")
+![output](/images/out.png "out")
 
 ## Where to go Next
 At this point, I can use this setup to help myself understand what Jira's webhooks provide and what the request parameters contain. I might follow the dockerize.io instructions further to containerize the application and enhance the deploy process.

@@ -1,6 +1,6 @@
 ---
 title: 'What is Value?'
-date: '2021-12-8'
+date: '2021-12-08'
 ---
 
 Ask yourself - is this the best possible way I can add value to my company, or any company?
