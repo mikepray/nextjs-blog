@@ -1,5 +1,5 @@
 ---
-title: 'When Blame is Good'
+title: 'When Blame is Good - The Critical Path of Accountability'
 date: '2022-11-5'
 ---
 
