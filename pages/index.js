@@ -14,15 +14,15 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({allPostsData}) {
+export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, my name is <b>Mike</b> and I'm a software engineer. 
-        I'm interested in distributed applications, software development methodologies, mountain biking, and sailing. 
+        <p>Hi, my name is <b>Mike</b> and I'm a software engineer.
+          I'm interested in distributed applications, software development methodologies, mountain biking, and sailing.
         </p>
         <p>Click <a href="https://mikepray.dev">here</a> to learn more and get in touch!</p>
       </section>
@@ -31,14 +31,14 @@ export default function Home({allPostsData}) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
           ))}
         </ul>
       </section>
